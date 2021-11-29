@@ -1,6 +1,11 @@
+import { useRef } from "react";
+// Styles
 import "./App.css";
 
 function App() {
+  const imgRef = useRef();
+  const canvasRef = useRef();
+
   return (
     <div className="App">
       <img
@@ -9,7 +14,7 @@ function App() {
         width="940"
         height="650"
       />
-      <canvas width="940" height="650"/>
+      <canvas width="940" height="650" />
     </div>
   );
 }
