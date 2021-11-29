@@ -9,6 +9,7 @@ function App() {
         width="940"
         height="650"
       />
+      <canvas width="940" height="650"/>
     </div>
   );
 }
