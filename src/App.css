@@ -8,5 +8,5 @@ body {
 
 canvas {
     background-color: purple;
-    position: relative;
+    position: absolute;
 }
