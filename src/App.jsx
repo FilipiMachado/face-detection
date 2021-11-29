@@ -9,12 +9,13 @@ function App() {
   return (
     <div className="App">
       <img
+        ref={imgRef}
         src="https://images.pexels.com/photos/8356485/pexels-photo-8356485.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260"
         alt="paisagem"
         width="940"
         height="650"
       />
-      <canvas width="940" height="650" />
+      <canvas ref={canvasRef} width="940" height="650" />
     </div>
   );
 }
